@@ -1,0 +1,24 @@
+{
+  "name": "@cfc/web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CFC Cairo energy twin dashboard: annual loads, envelope optimization, PV matching and Three.js building",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@cfc/energy-core": "^1.0.0",
+    "@cfc/optimizer": "^1.0.0",
+    "@cfc/reporting": "^1.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.3"
+  }
+}

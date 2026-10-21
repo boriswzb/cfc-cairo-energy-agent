@@ -1,0 +1,25 @@
+{
+  "name": "cfc-cairo-energy-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "华为埃及开罗 CFC 办公楼全年冷热负荷仿真、围护结构优化与三维可视化 Agent",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run weather:sync && npm run dev -w @cfc/web",
+    "build": "npm run weather:sync && npm run build -w @cfc/web",
+    "preview": "npm run preview -w @cfc/web",
+    "test": "node --test packages/energy-core/test/*.test.js packages/optimizer/test/*.test.js packages/reporting/test/*.test.js",
+    "test:watch": "node --test --watch packages/energy-core/test/*.test.js packages/optimizer/test/*.test.js packages/reporting/test/*.test.js",
+    "weather:prepare": "node scripts/prepare-weather.mjs",
+    "weather:sync": "node scripts/sync-weather.mjs",
+    "report": "node scripts/generate-report.mjs",
+    "check": "npm run test && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

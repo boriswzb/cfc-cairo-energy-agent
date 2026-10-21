@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vite/
+*.log
+.DS_Store
+apps/web/public/data/
+reports/
+/screenshots/
+/docs/render/

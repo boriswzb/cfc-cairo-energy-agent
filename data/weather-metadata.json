@@ -1,0 +1,136 @@
+{
+  "city": "Cairo.Intl.AP",
+  "state": "QH",
+  "country": "EGY",
+  "stationId": "623660",
+  "latitude": 30.122,
+  "longitude": 31.406,
+  "timezone": 2,
+  "elevation": 116.4,
+  "source": "Climate.OneBuilding TMYx",
+  "dataset": "EGY_QH_Cairo.Intl.AP.623660_TMYx",
+  "sourceUrl": "https://climate.onebuilding.org/WMO_Region_1_Africa/EGY_Egypt/QH_Al_Qahirah_Cairo/EGY_QH_Cairo.Intl.AP.623660_TMYx.zip",
+  "generatedAt": "2026-10-21T12:01:18.095Z",
+  "records": 8760,
+  "referenceYear": 2023,
+  "monthly": [
+    {
+      "month": 1,
+      "tdbMean": 13.66,
+      "tdbMax": 26.2,
+      "tdbMin": 5.3,
+      "ghiTotal": 112972,
+      "dniTotal": 158104,
+      "rhMean": 57.5
+    },
+    {
+      "month": 2,
+      "tdbMean": 14.9,
+      "tdbMax": 28.7,
+      "tdbMin": 5.8,
+      "ghiTotal": 128941,
+      "dniTotal": 165285,
+      "rhMean": 59.7
+    },
+    {
+      "month": 3,
+      "tdbMean": 17.86,
+      "tdbMax": 34,
+      "tdbMin": 7,
+      "ghiTotal": 179683,
+      "dniTotal": 196782,
+      "rhMean": 50.7
+    },
+    {
+      "month": 4,
+      "tdbMean": 21.64,
+      "tdbMax": 40,
+      "tdbMin": 11.1,
+      "ghiTotal": 211551,
+      "dniTotal": 226042,
+      "rhMean": 45.7
+    },
+    {
+      "month": 5,
+      "tdbMean": 25.57,
+      "tdbMax": 42,
+      "tdbMin": 14,
+      "ghiTotal": 239919,
+      "dniTotal": 251418,
+      "rhMean": 47
+    },
+    {
+      "month": 6,
+      "tdbMean": 27.82,
+      "tdbMax": 42.4,
+      "tdbMin": 18.2,
+      "ghiTotal": 239947,
+      "dniTotal": 248009,
+      "rhMean": 51
+    },
+    {
+      "month": 7,
+      "tdbMean": 28.66,
+      "tdbMax": 39,
+      "tdbMin": 21.8,
+      "ghiTotal": 243915,
+      "dniTotal": 251673,
+      "rhMean": 58.5
+    },
+    {
+      "month": 8,
+      "tdbMean": 28.75,
+      "tdbMax": 37,
+      "tdbMin": 22.9,
+      "ghiTotal": 225371,
+      "dniTotal": 237647,
+      "rhMean": 56.4
+    },
+    {
+      "month": 9,
+      "tdbMean": 26.73,
+      "tdbMax": 37,
+      "tdbMin": 19,
+      "ghiTotal": 189046,
+      "dniTotal": 209207,
+      "rhMean": 62.3
+    },
+    {
+      "month": 10,
+      "tdbMean": 24.32,
+      "tdbMax": 37,
+      "tdbMin": 15,
+      "ghiTotal": 155732,
+      "dniTotal": 192794,
+      "rhMean": 53.2
+    },
+    {
+      "month": 11,
+      "tdbMean": 19.89,
+      "tdbMax": 32.2,
+      "tdbMin": 12.8,
+      "ghiTotal": 117674,
+      "dniTotal": 160672,
+      "rhMean": 60.8
+    },
+    {
+      "month": 12,
+      "tdbMean": 15.34,
+      "tdbMax": 25,
+      "tdbMin": 5.2,
+      "ghiTotal": 103748,
+      "dniTotal": 153115,
+      "rhMean": 56.5
+    }
+  ],
+  "annual": {
+    "tdbMean": 22.13,
+    "tdbMax": 42.4,
+    "tdbMin": 5.2,
+    "ghiTotalKwhM2": 2148.5,
+    "dniTotalKwhM2": 2450.7,
+    "coolingDegreeDays18": 1959,
+    "heatingDegreeDays18": 450.7
+  },
+  "notes": "TMYx typical meteorological year, hourly records shifted onto a non-leap 2023 calendar for visualization. Original EPW fields preserved in data/cairo_tmyx.epw."
+}

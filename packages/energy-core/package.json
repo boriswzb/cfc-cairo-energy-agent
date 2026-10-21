@@ -1,0 +1,16 @@
+{
+  "name": "@cfc/energy-core",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CFC Cairo annual thermal simulation core: weather, 3R2C envelope, loads, PV, energy-balance validation",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}

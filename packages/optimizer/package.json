@@ -1,0 +1,19 @@
+{
+  "name": "@cfc/optimizer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CFC Cairo envelope multi-objective optimizer and PV matching agent",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@cfc/energy-core": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
